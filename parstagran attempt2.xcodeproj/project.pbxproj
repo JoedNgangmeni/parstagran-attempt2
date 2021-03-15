@@ -16,6 +16,7 @@
 		7CDD685625FFF9C000E20826 /* parstagran_attempt2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD685525FFF9C000E20826 /* parstagran_attempt2UITests.swift */; };
 		7CFDC84E25FFFCA600197D25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDC84D25FFFCA600197D25 /* LoginViewController.swift */; };
 		7CFDC85325FFFCB200197D25 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDC85225FFFCB200197D25 /* FeedViewController.swift */; };
+		7CFDC8582600024500197D25 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDC8572600024500197D25 /* CameraViewController.swift */; };
 		BAEE8D9748CE0BAA7E965D2F /* Pods_parstagran_attempt2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64F8C6506D5F55BE60B203F /* Pods_parstagran_attempt2.framework */; };
 		E07FC0DD082BD2C8361F5C4E /* Pods_parstagran_attempt2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF22A990C3155D55B8A2CA9 /* Pods_parstagran_attempt2Tests.framework */; };
 		F48BCAF2A8A56381453F8D29 /* Pods_parstagran_attempt2_parstagran_attempt2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394BD2DA2B9C28C9B12D0067 /* Pods_parstagran_attempt2_parstagran_attempt2UITests.framework */; };
@@ -55,6 +56,7 @@
 		7CDD685725FFF9C000E20826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFDC84D25FFFCA600197D25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7CFDC85225FFFCB200197D25 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7CFDC8572600024500197D25 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8AF22A990C3155D55B8A2CA9 /* Pods_parstagran_attempt2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagran_attempt2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CDDFD99AEAB2EC13C75E12 /* Pods-parstagran attempt2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagran attempt2.debug.xcconfig"; path = "Target Support Files/Pods-parstagran attempt2/Pods-parstagran attempt2.debug.xcconfig"; sourceTree = "<group>"; };
 		967290809797F5651C2808AE /* Pods-parstagran attempt2-parstagran attempt2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagran attempt2-parstagran attempt2UITests.debug.xcconfig"; path = "Target Support Files/Pods-parstagran attempt2-parstagran attempt2UITests/Pods-parstagran attempt2-parstagran attempt2UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				7CFDC84D25FFFCA600197D25 /* LoginViewController.swift */,
 				7CFDC85225FFFCB200197D25 /* FeedViewController.swift */,
 				7CDD683925FFF9BE00E20826 /* Main.storyboard */,
+				7CFDC8572600024500197D25 /* CameraViewController.swift */,
 				7CDD683C25FFF9C000E20826 /* Assets.xcassets */,
 				7CDD683E25FFF9C000E20826 /* LaunchScreen.storyboard */,
 				7CDD684125FFF9C000E20826 /* Info.plist */,
@@ -410,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFDC84E25FFFCA600197D25 /* LoginViewController.swift in Sources */,
+				7CFDC8582600024500197D25 /* CameraViewController.swift in Sources */,
 				7CDD683425FFF9BE00E20826 /* AppDelegate.swift in Sources */,
 				7CFDC85325FFFCB200197D25 /* FeedViewController.swift in Sources */,
 				7CDD683625FFF9BE00E20826 /* SceneDelegate.swift in Sources */,
