@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_parstagran_attempt2_parstagran_attempt2UITests : NSObject
+@end
+@implementation PodsDummy_Pods_parstagran_attempt2_parstagran_attempt2UITests
+@end

@@ -1,0 +1,6 @@
+framework module Pods_parstagran_attempt2 {
+  umbrella header "Pods-parstagran attempt2-umbrella.h"
+
+  export *
+  module * { export * }
+}
