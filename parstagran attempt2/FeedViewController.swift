@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import AlamofireImage
 
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
