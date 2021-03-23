@@ -14,6 +14,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var tableView: UITableView!
     let commentBar = MessageInputBar()
+    
     var posts = [PFObject]()
     var showsCommentBar = false
     var selectedPost: PFObject!
@@ -38,7 +39,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         becomeFirstResponder()
     }
     
-    override var inputView: UIView? {
+    override var inputAccessoryView: UIView? {
         return commentBar
     }
     override var canBecomeFirstResponder: Bool {
@@ -60,6 +61,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
+        //messageInputBar.delegate = self 
         let comment = PFObject(className: "Comments")
         comment["text"] = text
         comment["post"] = selectedPost
@@ -142,9 +144,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         PFUser.logOut()
         let main = UIStoryboard(name: "Main", bundle: nil)
         let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
-        let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
-        sceneDelegate.window?.rootViewController = loginViewController
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        delegate.window?.rootViewController = loginViewController
     }
-    
 
 }
