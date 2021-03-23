@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CBD5EDB260417F100DE0032 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBD5EDA260417F100DE0032 /* CommentCell.swift */; };
 		7CDD683425FFF9BE00E20826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD683325FFF9BE00E20826 /* AppDelegate.swift */; };
 		7CDD683625FFF9BE00E20826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD683525FFF9BE00E20826 /* SceneDelegate.swift */; };
 		7CDD683B25FFF9BE00E20826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD683925FFF9BE00E20826 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		394BD2DA2B9C28C9B12D0067 /* Pods_parstagran_attempt2_parstagran_attempt2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagran_attempt2_parstagran_attempt2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBD5EDA260417F100DE0032 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		7CDD683025FFF9BE00E20826 /* parstagran attempt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "parstagran attempt2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDD683325FFF9BE00E20826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CDD683525FFF9BE00E20826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7CFDC85225FFFCB200197D25 /* FeedViewController.swift */,
 				7CFDC85C2600086400197D25 /* PostCell.swift */,
 				7CDD683925FFF9BE00E20826 /* Main.storyboard */,
+				7CBD5EDA260417F100DE0032 /* CommentCell.swift */,
 				7CFDC8572600024500197D25 /* CameraViewController.swift */,
 				7CDD683C25FFF9C000E20826 /* Assets.xcassets */,
 				7CDD683E25FFF9C000E20826 /* LaunchScreen.storyboard */,
@@ -421,6 +424,7 @@
 				7CFDC85325FFFCB200197D25 /* FeedViewController.swift in Sources */,
 				7CDD683625FFF9BE00E20826 /* SceneDelegate.swift in Sources */,
 				7CFDC85D2600086400197D25 /* PostCell.swift in Sources */,
+				7CBD5EDB260417F100DE0032 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@ target 'parstagran attempt2' do
   # Pods for parstagran attempt2
 	pod 'Parse'
   	pod 'AlamofireImage'
+	pod 'MessageInputBar'
 
   target 'parstagran attempt2Tests' do
     inherit! :search_paths
